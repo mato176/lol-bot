@@ -1,0 +1,26 @@
+{
+  "name": "discord-lol-bot",
+  "version": "0.1.4",
+  "description": "League of Legends bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test command\" && exit 1",
+    "build": "tsc -p .",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScuroGuardiano/lol-discord-bot.git"
+  },
+  "author": "Scuro Guardiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScuroGuardiano/lol-discord-bot/issues"
+  },
+  "homepage": "https://github.com/ScuroGuardiano/lol-discord-bot#readme",
+  "dependencies": {
+    "@types/node": "^10.3.3",
+    "discord.js": "^11.3.2",
+    "kayn": "^0.8.15"
+  }
+}
